@@ -1,0 +1,20 @@
+Nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: turquoise;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+Nav p {
+  color: rebeccapurple;
+}
+Nav p:hover {
+  color: blue;
+}
+Nav .NavTitle {
+  margin-right: auto;
+}/*# sourceMappingURL=Nav.css.map */

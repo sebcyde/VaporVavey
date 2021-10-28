@@ -5,7 +5,7 @@ import './Loading.css';
 function Loading() {
 	return (
 		<div className="LoadScreenContainer">
-			<img src={LoadingSymbol} className="LoadingSymbol" />
+			<img src={LoadingSymbol} className="LoadingSymbol" alt="Loading Symbol" />
 			<h1>Loading...</h1>
 		</div>
 	);
