@@ -1,0 +1,45 @@
+@import '../StyleVariable.scss';
+
+.Nav2 {
+	height: 7vh;
+	position: sticky;
+	top: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0), $Accent);
+	font-size: larger;
+
+	ul {
+		width: 100%;
+		list-style-type: none;
+		color: white;
+		display: flex;
+		flex-direction: row;
+		justify-content: end;
+		align-items: center;
+		height: 7vh;
+		overflow: hidden;
+		margin-top: 0px;
+
+		li {
+			max-height: 7vh;
+			overflow: hidden;
+			padding: 2em;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			border-left: 1px solid $HomepageFontColor;
+
+			a {
+				color: $HomepageFontColor;
+				text-decoration: none;
+			}
+			a:hover {
+				color: tomato;
+			}
+			a:selected {
+				color: tomato;
+			}
+		}
+	}
+}

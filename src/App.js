@@ -8,6 +8,7 @@ function App() {
 	const [Splash, setSplash] = useState(<Loading />);
 	setTimeout(() => {
 		setSplash(() => <Homepage />);
+		document.querySelector('body').classList.remove('loadup');
 	}, 4000);
 
 	return <div className="App">{Splash}</div>;
