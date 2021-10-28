@@ -1,26 +1,40 @@
 .BannerContainer {
-  height: 100vh;
+  height: 95vh;
 }
 .BannerContainer .Banner1 {
   width: 100%;
   height: auto;
-  border-bottom: 1px solid #c20aad;
   -webkit-animation: fadein 2s;
           animation: fadein 2s;
 }
-.BannerContainer .Heading {
-  color: #c20aad;
-  height: auto;
-  width: 50%;
-  margin-top: 1em;
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
+@media screen and (max-width: 1919px) {
+  .BannerContainer .Heading {
+    color: #c20aad;
+    height: auto;
+    width: 30%;
+    margin-top: 1em;
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
+  }
+  .BannerContainer .BannerText {
+    color: #c20aad;
+    font-size: 1.5em;
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
+  }
 }
-.BannerContainer .BannerText {
-  color: #c20aad;
-  font-size: 1.5em;
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
+@media screen and (min-width: 1920px) {
+  .BannerContainer .Heading {
+    color: #c20aad;
+    height: auto;
+    width: 40%;
+    margin-top: 1em;
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
+  }
+  .BannerContainer .BannerText {
+    display: none;
+  }
 }
 
 @keyframes fadein {

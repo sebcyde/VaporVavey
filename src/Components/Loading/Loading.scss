@@ -2,8 +2,23 @@
 	color: #ffffff;
 	height: fit-content;
 	padding-top: 20vh;
-	.LoadingSymbol {
-		height: 10em;
-		width: auto;
+
+	@media screen and (max-width: 19219px) {
+		.LoadingSymbol {
+			height: 6em;
+			width: auto;
+		}
+		.LoadingText {
+			font-size: 1.3em;
+		}
+	}
+	@media screen and (min-width: 1920px) {
+		.LoadingSymbol {
+			height: 10em;
+			width: auto;
+		}
+		.LoadingText {
+			font-size: 2em;
+		}
 	}
 }

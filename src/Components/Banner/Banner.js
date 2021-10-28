@@ -6,8 +6,8 @@ import './Banner.css';
 function Banner() {
 	return (
 		<div className="BannerContainer">
-			<img src={Banner1} className="Banner1" />
-			<img src={Heading} className="Heading" />
+			<img src={Banner1} className="Banner1" alt="Banner" />
+			<img src={Heading} className="Heading" alt="We are fashion" />
 			<h1 className="BannerText">View the latest looks</h1>
 		</div>
 	);

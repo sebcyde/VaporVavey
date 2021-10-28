@@ -1,19 +1,22 @@
 @import '../StyleVariable.scss';
 
 .Nav {
-	position: sticky;
+	position: relative;
 	top: 0px;
-	height: fit-content;
+	height: 5vh;
 	display: flex;
 	flex-direction: row;
-	border-bottom: 1px solid $FontColor;
 	align-items: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
 
 	.Logo {
 		margin-right: auto;
 		height: 30px;
 		width: auto;
 		margin-left: 1em;
+		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 
 	a {

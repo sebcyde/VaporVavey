@@ -1,25 +1,39 @@
 @import '../StyleVariable.scss';
 
 .BannerContainer {
-	height: 100vh;
+	height: 95vh;
 
 	.Banner1 {
 		width: 100%;
 		height: auto;
-		border-bottom: 1px solid $FontColor;
 		animation: fadein 2s;
 	}
-	.Heading {
-		color: $FontColor;
-		height: auto;
-		width: 50%;
-		margin-top: 1em;
-		animation: fadein 3s;
+
+	@media screen and (max-width: 1919px) {
+		.Heading {
+			color: $FontColor;
+			height: auto;
+			width: 30%;
+			margin-top: 1em;
+			animation: fadein 3s;
+		}
+		.BannerText {
+			color: $FontColor;
+			font-size: 1.5em;
+			animation: fadein 3s;
+		}
 	}
-	.BannerText {
-		color: $FontColor;
-		font-size: 1.5em;
-		animation: fadein 3s;
+	@media screen and (min-width: 1920px) {
+		.Heading {
+			color: $FontColor;
+			height: auto;
+			width: 40%;
+			margin-top: 1em;
+			animation: fadein 3s;
+		}
+		.BannerText {
+			display: none;
+		}
 	}
 }
 

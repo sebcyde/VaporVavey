@@ -5,7 +5,21 @@
   height: fit-content;
   padding-top: 20vh;
 }
-.LoadScreenContainer .LoadingSymbol {
-  height: 10em;
-  width: auto;
+@media screen and (max-width: 19219px) {
+  .LoadScreenContainer .LoadingSymbol {
+    height: 6em;
+    width: auto;
+  }
+  .LoadScreenContainer .LoadingText {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .LoadScreenContainer .LoadingSymbol {
+    height: 10em;
+    width: auto;
+  }
+  .LoadScreenContainer .LoadingText {
+    font-size: 2em;
+  }
 }/*# sourceMappingURL=Loading.css.map */
