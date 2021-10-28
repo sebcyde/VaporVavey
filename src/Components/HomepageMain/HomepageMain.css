@@ -13,12 +13,21 @@
   left: 0;
   background-color: rgba(255, 255, 0, 0.419);
   text-align: center;
-  width: 70vw;
+  width: 80vw;
 }
 .HomepageMainContainer .HompageMainLeftSection p {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+.HomepageMainContainer .HompageMainLeftSection .Banners {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #cadfff;
 }
 .HomepageMainContainer .HompageMainRightSection {
   background-color: rgba(0, 255, 64, 0.46);
@@ -26,9 +35,12 @@
   right: 0;
   padding: 2em;
   padding-top: 1em;
-  width: 30vw;
+  width: 20vw;
 }
 .HomepageMainContainer .HompageMainRightSection img {
   width: 95%;
   height: auto;
+  margin-bottom: 1.5em;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #cadfff;
 }/*# sourceMappingURL=HomepageMain.css.map */

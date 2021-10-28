@@ -9,7 +9,7 @@ function App() {
 	setTimeout(() => {
 		setSplash(() => <Homepage />);
 		document.querySelector('body').classList.remove('loadup');
-	}, 4000);
+	}, 6000);
 
 	return <div className="App">{Splash}</div>;
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import './HomepageMain.css';
+import Banner1 from './assets/Banner1.jpg';
 import FakeAd1 from './assets/fakead1.png';
+import FakeAd2 from './assets/fakead2.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -42,10 +44,14 @@ function HomepageMain() {
 					https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md
 					jsx-a11y/anchor-is-valid
 				</p>
+
+				<img src={Banner1} className="Banners" data-aos="fade-up" />
+				<p>Fake placeholder ad</p>
 			</div>
 			<div className="HompageMainRightSection">
-				<img src={FakeAd1} />
-				<img />
+				<p>fake placeholder ads lol</p>
+				<img src={FakeAd1} data-aos="fade-up" />
+				<img src={FakeAd2} data-aos="fade-up" />
 			</div>
 		</div>
 	);
