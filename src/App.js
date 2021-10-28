@@ -1,21 +1,16 @@
 import React, { useState } from 'react';
 import './App.css';
-import Banner from './Components/Banner/Banner';
+
+import Homepage from './Components/Homepage/Homepage';
 import Loading from './Components/Loading/Loading';
-import Nav from './Components/Nav/Nav';
 
 function App() {
 	const [Splash, setSplash] = useState(<Loading />);
 	setTimeout(() => {
-		setSplash(() => <Banner />);
+		setSplash(() => <Homepage />);
 	}, 4000);
 
-	return (
-		<div className="App">
-			<Nav />
-			{Splash}
-		</div>
-	);
+	return <div className="App">{Splash}</div>;
 }
 
 export default App;

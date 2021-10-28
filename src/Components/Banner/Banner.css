@@ -3,7 +3,7 @@
 }
 .BannerContainer .Banner1 {
   width: 100%;
-  height: auto;
+  height: 70%;
   -webkit-animation: fadein 2s;
           animation: fadein 2s;
 }
