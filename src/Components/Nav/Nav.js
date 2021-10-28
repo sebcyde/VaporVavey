@@ -3,11 +3,17 @@ import './Nav.css';
 
 function Nav() {
 	return (
-		<Nav>
-			<p className="NavTitle">VaporWavey</p>
-			<p className="NavProductsTab">Products</p>
-			<p className="NavAboutTab">About</p>
-		</Nav>
+		<div className="Nav">
+			<a href="#">
+				<p className="NavTitle">VaporWavey</p>
+			</a>
+			<a href="#">
+				<p className="NavProductsTab">Products</p>
+			</a>
+			<a href="#">
+				<p className="NavAboutTab">About</p>
+			</a>
+		</div>
 	);
 }
 

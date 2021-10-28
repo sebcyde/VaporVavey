@@ -1,19 +1,27 @@
-Nav {
+@import '../StyleVariable.scss';
+
+.Nav {
 	position: sticky;
 	top: 0px;
-	background-color: turquoise;
 	height: fit-content;
 	display: flex;
 	flex-direction: row;
+	border-bottom: 1px solid $FontColor;
 
-	p {
-		color: rebeccapurple;
+	a {
+		color: $FontColor;
+		margin: 1em;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 1.3em;
+		font-weight: 500;
+		text-decoration: none;
 	}
-	p:hover {
-		color: blue;
+	a:hover {
+		color: rgb(175, 45, 64);
+		text-decoration: underline;
 	}
-
-	.NavTitle {
+	a:nth-of-type(1) {
 		margin-right: auto;
 	}
 }

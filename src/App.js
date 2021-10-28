@@ -5,7 +5,6 @@ import Nav from './Components/Nav/Nav';
 function App() {
 	return (
 		<div className="App">
-			{/* <Loading/> */}
 			<Nav />
 		</div>
 	);

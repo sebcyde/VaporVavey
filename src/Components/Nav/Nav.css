@@ -1,20 +1,27 @@
-Nav {
+.Nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  background-color: turquoise;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
   flex-direction: row;
+  border-bottom: 1px solid #813ec5;
 }
-Nav p {
-  color: rebeccapurple;
+.Nav a {
+  color: #813ec5;
+  margin: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-decoration: none;
 }
-Nav p:hover {
-  color: blue;
+.Nav a:hover {
+  color: #af2d40;
+  text-decoration: underline;
 }
-Nav .NavTitle {
+.Nav a:nth-of-type(1) {
   margin-right: auto;
 }/*# sourceMappingURL=Nav.css.map */
