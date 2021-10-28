@@ -1,9 +1,45 @@
 .BannerContainer {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 100vh;
 }
 .BannerContainer .Banner1 {
   width: 100%;
   height: auto;
-}/*# sourceMappingURL=Banner.css.map */
+  border-bottom: 1px solid #c20aad;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+}
+.BannerContainer .Heading {
+  color: #c20aad;
+  height: auto;
+  width: 50%;
+  margin-top: 1em;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+.BannerContainer .BannerText {
+  color: #c20aad;
+  font-size: 1.5em;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+/* Opera < 12.1 *//*# sourceMappingURL=Banner.css.map */
