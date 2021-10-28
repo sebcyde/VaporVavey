@@ -9,6 +9,7 @@
 	justify-content: space-evenly;
 	background: linear-gradient(to right, rgba(255, 255, 255, 0), $Accent);
 	font-size: larger;
+	z-index: 3;
 
 	ul {
 		width: 100%;

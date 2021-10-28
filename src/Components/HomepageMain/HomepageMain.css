@@ -1,0 +1,34 @@
+.HomepageMainContainer {
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  color: #cadfff;
+}
+.HomepageMainContainer .HompageMainLeftSection {
+  position: relative;
+  left: 0;
+  background-color: rgba(255, 255, 0, 0.419);
+  text-align: center;
+  width: 70vw;
+}
+.HomepageMainContainer .HompageMainLeftSection p {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.HomepageMainContainer .HompageMainRightSection {
+  background-color: rgba(0, 255, 64, 0.46);
+  position: relative;
+  right: 0;
+  padding: 2em;
+  padding-top: 1em;
+  width: 30vw;
+}
+.HomepageMainContainer .HompageMainRightSection img {
+  width: 95%;
+  height: auto;
+}/*# sourceMappingURL=HomepageMain.css.map */

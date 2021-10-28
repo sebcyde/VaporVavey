@@ -8,6 +8,7 @@
   justify-content: space-evenly;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #5f1356);
   font-size: larger;
+  z-index: 3;
 }
 .Nav2 ul {
   width: 100%;
