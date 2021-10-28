@@ -16,15 +16,17 @@
     -webkit-animation: fadein 3s;
             animation: fadein 3s;
   }
-  .BannerContainer .BannerText {
-    color: #c20aad;
-    font-size: 1.5em;
+  .BannerContainer img.ArrowDown {
+    height: 3em;
+    width: auto;
     -webkit-animation: fadein 3s;
             animation: fadein 3s;
+    margin-top: 1em;
   }
 }
+
 @media screen and (min-width: 1920px) {
-  .BannerContainer .Heading {
+  .Heading {
     color: #c20aad;
     height: auto;
     width: 40%;
@@ -32,11 +34,15 @@
     -webkit-animation: fadein 3s;
             animation: fadein 3s;
   }
-  .BannerContainer .BannerText {
-    display: none;
+
+  img.ArrowDown {
+    height: 3em;
+    width: auto;
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
+    margin-top: 1em;
   }
 }
-
 @keyframes fadein {
   from {
     opacity: 0;

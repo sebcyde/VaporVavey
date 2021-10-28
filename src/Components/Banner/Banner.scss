@@ -17,23 +17,29 @@
 			margin-top: 1em;
 			animation: fadein 3s;
 		}
-		.BannerText {
-			color: $FontColor;
-			font-size: 1.5em;
+
+		img.ArrowDown {
+			height: 3em;
+			width: auto;
 			animation: fadein 3s;
+			margin-top: 1em;
 		}
 	}
-	@media screen and (min-width: 1920px) {
-		.Heading {
-			color: $FontColor;
-			height: auto;
-			width: 40%;
-			margin-top: 1em;
-			animation: fadein 3s;
-		}
-		.BannerText {
-			display: none;
-		}
+}
+@media screen and (min-width: 1920px) {
+	.Heading {
+		color: $FontColor;
+		height: auto;
+		width: 40%;
+		margin-top: 1em;
+		animation: fadein 3s;
+	}
+
+	img.ArrowDown {
+		height: 3em;
+		width: auto;
+		animation: fadein 3s;
+		margin-top: 1em;
 	}
 }
 
