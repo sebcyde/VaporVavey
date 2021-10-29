@@ -4,7 +4,7 @@ import './Home.css';
 
 function Home() {
 	return (
-		<div>
+		<div id="HM">
 			<div className="HompageMainLeftSection">
 				<h2 className="HomepageMainTitle">Placeholder Text</h2>
 

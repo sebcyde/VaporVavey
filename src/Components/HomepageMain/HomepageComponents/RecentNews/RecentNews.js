@@ -4,7 +4,7 @@ import './RecentNews.css';
 
 function RecentNews() {
 	return (
-		<div>
+		<div id="RN">
 			<div className="RecentNews">
 				<h2>Recent News</h2>
 				<p>

@@ -12,12 +12,7 @@ function Nav2() {
 		<div className="Nav2">
 			<ul>
 				<li>
-					<a href="#" className="HomeNavLink">
-						Home
-					</a>
-				</li>
-				<li>
-					<a href="#" className="RecentNewsNavLink">
+					<a href="#RN" className="RecentNewsNavLink">
 						Recent News
 					</a>
 				</li>
