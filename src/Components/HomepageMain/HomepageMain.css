@@ -8,39 +8,18 @@
   flex-direction: row;
   color: #cadfff;
 }
-.HomepageMainContainer .HompageMainLeftSection {
-  position: relative;
-  left: 0;
-  background-color: rgba(255, 255, 0, 0.419);
-  text-align: center;
-  width: 80vw;
-}
-.HomepageMainContainer .HompageMainLeftSection p {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.HomepageMainContainer .HompageMainLeftSection .Banners {
-  width: 90%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px #cadfff;
-}
 .HomepageMainContainer .HompageMainRightSection {
-  background-color: rgba(0, 255, 64, 0.46);
   position: relative;
   right: 0;
-  padding: 2em;
+  padding: 1em;
   padding-top: 1em;
-  width: 20vw;
+  width: 100%;
+  min-width: 220px;
 }
 .HomepageMainContainer .HompageMainRightSection img {
-  width: 95%;
+  width: 97%;
   height: auto;
-  margin-bottom: 1.5em;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px #cadfff;
+  margin-bottom: 1.7em;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px black;
 }/*# sourceMappingURL=HomepageMain.css.map */

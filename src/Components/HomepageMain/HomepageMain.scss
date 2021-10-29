@@ -2,7 +2,6 @@
 
 .HomepageMainContainer {
 	margin: 0px;
-
 	text-align: center;
 	width: 100%;
 	height: 100%;
@@ -10,40 +9,20 @@
 	display: flex;
 	flex-direction: row;
 	color: $HomepageFontColor;
-	.HompageMainLeftSection {
-		position: relative;
-		left: 0;
-		background-color: rgba(255, 255, 0, 0.419);
-		text-align: center;
-		width: 80vw;
-		p {
-			width: 90%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		.Banners {
-			width: 90%;
-			height: auto;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 2em;
-			border-radius: 5px;
-			box-shadow: 5px 5px 5px $HomepageFontColor;
-		}
-	}
+
 	.HompageMainRightSection {
-		background-color: rgba(0, 255, 64, 0.46);
 		position: relative;
 		right: 0;
-		padding: 2em;
+		padding: 1em;
 		padding-top: 1em;
-		width: 20vw;
+		width: 100%;
+		min-width: 220px;
 		img {
-			width: 95%;
+			width: 97%;
 			height: auto;
-			margin-bottom: 1.5em;
-			border-radius: 5px;
-			box-shadow: 5px 5px 5px $HomepageFontColor;
+			margin-bottom: 1.7em;
+			border-radius: 2px;
+			box-shadow: 5px 5px 5px black;
 		}
 	}
 }
