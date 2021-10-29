@@ -2,34 +2,40 @@ import React, { useState } from 'react';
 import './Nav2.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import RecentNewsSwitch from '../HomepageMain/HomepageMain';
+import HomeSwitch from '../HomepageMain/HomepageMain';
 
 function Nav2() {
 	AOS.init();
 
-	// const [NavItem, setNavItem] = useState(initialState);
-
 	return (
-		<div className="Nav2" data-aos="fade-left">
+		<div className="Nav2">
 			<ul>
 				<li>
-					<a href="#" selected="selected">
+					<a href="#" className="HomeNavLink">
 						Home
 					</a>
 				</li>
 				<li>
-					<a href="#">Recent News</a>
+					<a href="#" className="RecentNewsNavLink">
+						Recent News
+					</a>
 				</li>
 				<li>
-					<a href="#">Products</a>
+					<a href="#" className="ProductsNavLink" onClick="{}">
+						Products
+					</a>
 				</li>
 				<li>
-					<a href="#">Forum</a>
+					<a href="#" className="ForumNavLink" onClick="{}">
+						Forum
+					</a>
 				</li>
 				<li>
-					<a href="#">About</a>
-				</li>
-				<li>
-					<a href="#">Contact</a>
+					<form>
+						<input className="Searchbar" />
+						<button>Go</button>
+					</form>
 				</li>
 			</ul>
 		</div>

@@ -9,6 +9,8 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #5f1356);
   font-size: larger;
   z-index: 3;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
 }
 .Nav2 ul {
   width: 100%;
@@ -39,4 +41,25 @@
 }
 .Nav2 ul li a:selected {
   color: tomato;
-}/*# sourceMappingURL=Nav2.css.map */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+/* Opera < 12.1 *//*# sourceMappingURL=Nav2.css.map */
