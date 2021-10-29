@@ -3,7 +3,6 @@
 .HompageMainLeftSection {
 	position: relative;
 	left: 0;
-	// background-color: rgba(255, 255, 0, 0.419);
 	text-align: center;
 	width: 100%;
 	height: 100%;
@@ -16,6 +15,9 @@
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	p:nth-of-type(3) {
+		margin-top: 2.5em;
 	}
 	.Banners {
 		width: 70%;

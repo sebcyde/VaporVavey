@@ -15,6 +15,9 @@
   margin-left: auto;
   margin-right: auto;
 }
+.HompageMainLeftSection p:nth-of-type(3) {
+  margin-top: 2.5em;
+}
 .HompageMainLeftSection .Banners {
   width: 70%;
   height: auto;
