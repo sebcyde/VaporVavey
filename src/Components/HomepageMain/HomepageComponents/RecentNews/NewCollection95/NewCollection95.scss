@@ -1,30 +1,90 @@
 .NewCollection95 {
-	background-color: rgba(0, 0, 255, 0.385);
 	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	margin: 0;
+	padding: 0;
+	img {
+		max-height: 300px;
+		width: auto;
+		overflow: hidden;
+		border-radius: 10px;
+		box-shadow: 4px 4px 7px white;
+	}
+	h3 {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	li {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	hr {
+		margin-top: 2em;
+	}
 
 	.NewItemsRow1 {
-		background-color: rgba(255, 0, 0, 0.412);
+		list-style-type: none;
+
 		width: 100%;
+		padding: 0;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+
+		@media screen and (max-width: 1919px) {
+			li:nth-of-type(4) {
+				display: none;
+			}
+		}
 	}
 	.NewItemsRow2 {
-		background-color: rgba(21, 255, 0, 0.412);
+		list-style-type: none;
+
 		width: 100%;
+		padding: 0;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+
+		@media screen and (max-width: 1919px) {
+			li:nth-of-type(4) {
+				display: none;
+			}
+		}
 	}
 	.NewItemsRow3 {
-		background-color: rgba(212, 0, 255, 0.412);
+		list-style-type: none;
+
 		width: 100%;
+		padding: 0;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+
+		@media screen and (max-width: 1919px) {
+			li:nth-of-type(4) {
+				display: none;
+			}
+		}
+	}
+	.NewItemsRow4 {
+		list-style-type: none;
+
+		width: 100%;
+		padding: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+
+		@media screen and (max-width: 1919px) {
+			li:nth-of-type(4) {
+				display: none;
+			}
+		}
 	}
 }
