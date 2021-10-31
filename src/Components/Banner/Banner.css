@@ -1,5 +1,12 @@
 .BannerContainer {
-  height: 95vh;
+  height: 100vh;
+}
+.BannerContainer .TopLine {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .BannerContainer .Banner1 {
   width: 100%;
@@ -7,42 +14,24 @@
   -webkit-animation: fadein 2s;
           animation: fadein 2s;
 }
-@media screen and (max-width: 1919px) {
-  .BannerContainer .Heading {
-    color: #c20aad;
-    height: auto;
-    width: 30%;
-    margin-top: 1em;
-    -webkit-animation: fadein 3s;
-            animation: fadein 3s;
-  }
-  .BannerContainer img.ArrowDown {
-    height: 3em;
-    width: auto;
-    -webkit-animation: fadein 3s;
-            animation: fadein 3s;
-    margin-top: 1em;
-  }
+.BannerContainer .EntryButton {
+  width: 30%;
+  height: 3em;
+  margin-top: 1em;
+  background-image: url(https://thumbs.gfycat.com/IncompatibleSoggyFrilledlizard-max-1mb.gif);
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+}
+.BannerContainer .EntryButton:hover {
+  cursor: pointer;
 }
 
-@media screen and (min-width: 1920px) {
-  .Heading {
-    color: #c20aad;
-    height: auto;
-    width: 40%;
-    margin-top: 1em;
-    -webkit-animation: fadein 3s;
-            animation: fadein 3s;
-  }
-
-  img.ArrowDown {
-    height: 3em;
-    width: auto;
-    -webkit-animation: fadein 3s;
-            animation: fadein 3s;
-    margin-top: 1em;
-  }
-}
 @keyframes fadein {
   from {
     opacity: 0;

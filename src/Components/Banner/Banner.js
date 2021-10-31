@@ -1,16 +1,21 @@
 import React from 'react';
 import Banner1 from './BannerAssets/Banner1.jpg';
-import Heading from './BannerAssets/Heading.png';
-import Arrow from './BannerAssets/A.png';
+import TopLine from '../../assets/TopLine.png';
+import Enter from '../Homepage/Homepage';
 import './Banner.css';
 
 function Banner() {
+	const handleClick = () => {
+		Enter();
+	};
+
 	return (
 		<div className="BannerContainer">
+			<img src={TopLine} className="TopLine" alt="Vaporwavey" />
 			<img src={Banner1} className="Banner1" alt="Banner" />
-			<img src={Heading} className="Heading" alt="We are fashion" />
-			<br />
-			<img src={Arrow} className="ArrowDown" alt="Down arrow" />
+			<button className="EntryButton" onClick={handleClick}>
+				Join The Revolution
+			</button>
 		</div>
 	);
 }

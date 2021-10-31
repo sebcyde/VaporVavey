@@ -1,22 +1,20 @@
 import React, { useState } from 'react';
 import Banner from '../Banner/Banner';
 import HomepageMain from '../HomepageMain/HomepageMain';
-// import Nav from '../Nav/Nav';
-import Nav2 from '../Nav2/Nav2';
-
 import './Homepage.css';
 
 function Homepage() {
-	const [Home, setHome] = useState(<HomepageMain />);
+	const [Home, setHome] = useState(<Banner />);
 
-	return (
-		<div>
-			<Nav2 />
-			<Banner />
+	// const Enter = () => {
+	// 	setHome(<HomepageMain />);
+	// };
 
-			{Home}
-		</div>
-	);
+	function Enter() {
+		setHome(<HomepageMain />);
+	}
+
+	return <div>{Home}</div>;
 }
 
 export default Homepage;
