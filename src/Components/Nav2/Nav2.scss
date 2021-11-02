@@ -7,7 +7,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	background: linear-gradient(to right, rgba(255, 255, 255, 0), $Accent);
+	background: linear-gradient(to right, $HomepageFontColor, $Accent);
 	font-size: larger;
 	z-index: 3;
 	animation: fadein 2s;
@@ -24,6 +24,19 @@
 		overflow: hidden;
 		margin-top: 0px;
 
+		li:nth-of-type(1) {
+			margin-right: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding-left: 0%;
+			border: none;
+			img {
+				width: 8em;
+				height: auto;
+			}
+		}
+
 		li {
 			max-height: 7vh;
 			overflow: hidden;
@@ -33,7 +46,7 @@
 			border-left: 1px solid $HomepageFontColor;
 
 			a {
-				color: $HomepageFontColor;
+				color: black;
 				text-decoration: none;
 			}
 			a:hover {

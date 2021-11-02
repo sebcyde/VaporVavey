@@ -9,8 +9,8 @@ function RecentNews() {
 			<div className="RecentNews">
 				<h2 className="RecentNewsTitle">95 COLLECTION NOW AVAILABLE</h2>
 				<NewCollection95 />
-				<img src={Banner1} className="Banners" />
-				<p>
+				<img src={Banner1} className="Banners" data-aos="fade-up" />
+				<p data-aos="fade-up">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras
 					pulvinar mattis nunc sed blandit. Elit pellentesque habitant morbi

@@ -29,7 +29,7 @@ function HomepageMain() {
 				<Home />
 			</div>
 			<div className="HompageMainRightSection">
-				<p>fake placeholder ads lol</p>
+				<p>fake placeholder ads</p>
 				<img src={FakeAd1} data-aos="fade-up" />
 				<img src={FakeAd2} data-aos="fade-up" />
 				<img src={FakeAd3} data-aos="fade-up" />
