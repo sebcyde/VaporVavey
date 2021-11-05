@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './HomepageMain.css';
 import Home from './HomepageComponents/HomeComponent/Home';
 import RecentNews from './HomepageComponents/RecentNews/RecentNews';
@@ -10,17 +10,7 @@ import 'aos/dist/aos.css';
 
 function HomepageMain() {
 	AOS.init();
-	// const [NavItem, setNavItem] = useState(<RecentNews />);
 
-	// const HomeSwitch = (e) => {
-	// 	e.preventDefault();
-	// 	setNavItem(<Home />);
-	// };
-
-	// const RecentNewsSwitch = (e) => {
-	// 	e.preventDefault();
-	// 	setNavItem(<RecentNews />);
-	// };
 	return (
 		<div className="HomepageMainContainer" data-aos="fade-up">
 			<div className="HompageMainLeftSection">
