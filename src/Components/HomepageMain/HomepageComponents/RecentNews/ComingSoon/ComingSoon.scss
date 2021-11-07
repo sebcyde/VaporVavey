@@ -1,3 +1,5 @@
+@import '../../../../StyleVariable.scss';
+
 img.ComingSoonCarouselImage {
 	height: 300px;
 	width: auto;
@@ -5,5 +7,16 @@ img.ComingSoonCarouselImage {
 CarouselProvider {
 	li {
 		padding: 0px;
+	}
+
+	.carousel__back-button,
+	.carousel__next-button {
+		font-family: $FontFamily;
+		background-color: $HomepageFontColor;
+		border: 1px solid black;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
 	}
 }

@@ -1,1 +1,1 @@
-{"version":3,"sources":["ComingSoon.scss"],"names":[],"mappings":"AAAA;EACC,aAAA;EACA,WAAA;AACD;;AAEC;EACC,YAAA;AACF","file":"ComingSoon.css"}
+{"version":3,"sources":["ComingSoon.scss","../../../../StyleVariable.scss"],"names":[],"mappings":"AAEA;EACC,aAAA;EACA,WAAA;AADD;;AAIC;EACC,YAAA;AADF;AAIC;;EAEC,8BCVW;EDWX,yBCZkB;EDalB,uBAAA;EACA,mBAAA;EACA,oBAAA;EACA,kBAAA;EACA,qBAAA;AAFF","file":"ComingSoon.css"}

@@ -19,9 +19,10 @@ export default class extends React.Component {
 	render() {
 		return (
 			<CarouselProvider
-				naturalSlideWidth={50}
-				naturalSlideHeight={20}
+				naturalSlideWidth={30}
+				naturalSlideHeight={30}
 				totalSlides={6}
+				visibleSlides={3}
 			>
 				<Slider>
 					<Slide index={0}>
@@ -43,8 +44,8 @@ export default class extends React.Component {
 						<img src={Image6} className="ComingSoonCarouselImage" />
 					</Slide>
 				</Slider>
-				<ButtonBack>Back</ButtonBack>
-				<ButtonNext>Next</ButtonNext>
+				<ButtonBack className="CarouselBackButton">Back</ButtonBack>
+				<ButtonNext className="CarouselNextButton">Next</ButtonNext>
 			</CarouselProvider>
 		);
 	}

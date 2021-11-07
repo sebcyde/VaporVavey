@@ -5,4 +5,14 @@ img.ComingSoonCarouselImage {
 
 CarouselProvider li {
   padding: 0px;
+}
+CarouselProvider .carousel__back-button,
+CarouselProvider .carousel__next-button {
+  font-family: Karla, sans-serif;
+  background-color: #cadfff;
+  border: 1px solid black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }/*# sourceMappingURL=ComingSoon.css.map */
