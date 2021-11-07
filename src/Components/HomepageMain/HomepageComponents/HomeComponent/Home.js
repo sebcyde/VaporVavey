@@ -9,12 +9,14 @@ function Home() {
 	// axios.get('');
 
 	return (
-		<div id="HM">
+		<div>
 			<div className="HompageMainLeftSection">
 				<img src={Banner1} className="Banners" data-aos="fade-up" />
 				<p>Fake placeholder ad</p>
 				<hr />
-				<h2 className="HomepageMainTitle">Join The Conversation!</h2>
+				<h2 className="HomepageMainTitle" id="TE">
+					Join The Conversation!
+				</h2>
 				<TwitterEmbed />
 			</div>
 		</div>

@@ -4,14 +4,16 @@ import './TwitterEmbed.css';
 
 function TwitterEmbed() {
 	return (
-		<TwitterTimelineEmbed
-			sourceType="profile"
-			screenName="VaporFashion"
-			options={{ width: 500 }}
-			noScrollbar={true}
-			theme="dark"
-			// borderColor="CADFFF"
-		/>
+		<div className="TwitterEmbed">
+			<TwitterTimelineEmbed
+				sourceType="profile"
+				screenName="VaporFashion"
+				options={{ width: 500 }}
+				noScrollbar={true}
+				theme="dark"
+				// borderColor="CADFFF"
+			/>
+		</div>
 	);
 }
 

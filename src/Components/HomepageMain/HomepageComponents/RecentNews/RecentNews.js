@@ -6,11 +6,15 @@ import './RecentNews.css';
 
 function RecentNews() {
 	return (
-		<div id="RN">
+		<div>
 			<div className="RecentNews">
-				<h2 className="RecentNewsTitle">95 COLLECTION NOW AVAILABLE</h2>
+				<h2 className="RecentNewsTitle" id="RN">
+					95 COLLECTION NOW AVAILABLE
+				</h2>
 				<NewCollection95 />
-				<h2 className="RecentNewsTitle">COMING SOON!</h2>
+				<h2 className="RecentNewsTitle" id="HM">
+					COMING SOON!
+				</h2>
 				<img src={Banner3} className="Banners" data-aos="fade-up" />
 				<p data-aos="fade-up">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

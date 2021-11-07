@@ -14,17 +14,17 @@ function Nav2() {
 					<img src={TopLine} />
 				</li>
 				<li>
-					<a href="<RecentNews/>" className="RecentNewsNavLink">
+					<a href="#RN" className="RecentNewsNavLink">
 						Recent News
 					</a>
 				</li>
 				<li>
-					<a href="<RecentNews/>" className="ProductsNavLink" onClick="{}">
+					<a href="#HM" className="ProductsNavLink" onClick="{}">
 						Upcoming
 					</a>
 				</li>
 				<li>
-					<a href="<TwitterEmbed/>" className="ForumNavLink" onClick="{}">
+					<a href="#TE" className="ForumNavLink" onClick="{}">
 						Social
 					</a>
 				</li>
