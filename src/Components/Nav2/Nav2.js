@@ -28,12 +28,6 @@ function Nav2() {
 						Social
 					</a>
 				</li>
-				<li>
-					<form>
-						<input className="Searchbar" />
-						<button>Go</button>
-					</form>
-				</li>
 			</ul>
 		</div>
 	);
