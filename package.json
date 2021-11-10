@@ -1,4 +1,5 @@
 {
+	"homepage": "https://sebcyde.github.io/VaporVavey/",
 	"name": "vaporwavey",
 	"version": "0.1.0",
 	"private": false,
@@ -43,7 +44,6 @@
 		]
 	},
 	"devDependencies": {
-		"gh-pages": "^3.2.3",
-		"homepage": "https://sebcyde.github.io/VaporVavey/"
+		"gh-pages": "^3.2.3"
 	}
 }
